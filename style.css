@@ -460,6 +460,38 @@ spline-viewer.hero3d1{
 
 }
 
+
+
+.image-wrap {
+    min-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 20px;
+}
+.image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1s ease-in-out;
+}
+.image-wrap:hover img {
+    object-position: bottom center;
+    box-shadow: 0 0 20px lightgray;
+    
+}
+
+
+
+
+
+
+
+
+
+
 .project-info{
     display: flex;
     flex-direction: column;
@@ -538,7 +570,7 @@ spline-viewer.hero3d1{
 }
 
 .hoversing.active{
-    display: none;
+    display: none !important;
 }
 
 
@@ -667,6 +699,11 @@ filter:grayscale(0);
 
 
 
+.slider .list {
+    will-change: transform;
+}
+
+
 /* contact css */
 
 
@@ -736,6 +773,17 @@ filter:grayscale(0);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.contact-box textarea{
+    padding: 7.5px 30px;
+    background-color: lightgray;
+    width: 88%;
+    height: auto;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
 
 .contact-box button{

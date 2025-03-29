@@ -9,11 +9,11 @@ const videolist = [video1, video2, video3];
 
 videolist.forEach(function(video){
     video.addEventListener('mouseover', function(){
-        video.play();
+      
         hoversing.classList.add("active");
     })
     video.addEventListener('mouseout', function() {
-        video.pause();
+      
         hoversing.classList.remove("active");
     })
 })
