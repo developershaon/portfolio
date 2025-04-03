@@ -148,7 +148,7 @@ header ul a{
     color: #727fde;
     padding: 8px 10px;
     border: 1px solid #727fde77;
-    width: 330px;
+    width: 360px;
     font-size: 15px;
     background-color: #2200493d;
     box-shadow: 0 0 5px #727fde88;
@@ -508,6 +508,7 @@ spline-viewer.hero3d1{
     text-wrap: nowrap;
     margin-top: 0;
     max-width: 450px;
+    margin-bottom: 10px;
 }
 
 .project-info p{
