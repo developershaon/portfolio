@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Animation function for progress
   function animateProgress() {
-    const duration = 20; // Total loading time in seconds
+    const duration = 60; // Total loading time in seconds
 
     gsap.to(
       {},
