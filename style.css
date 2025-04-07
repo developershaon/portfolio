@@ -935,7 +935,7 @@ footer h1{
 
 /* TABLET RESPONSIVE */
 
-/* 
+
 
 
 @media screen and (max-width: 1000px) {
@@ -962,9 +962,25 @@ footer h1{
         height: 500px;
     }
 
-} */
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* newcss here preloader */
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -1321,4 +1337,32 @@ body {
     width: 25vw;
     height: 25vw;
   }
+}
+
+
+
+
+
+/* animation css */
+.autodisplay {
+    animation: autodisplay 1s ease-out both;
+}
+
+
+@keyframes autodisplay {
+    from {
+        filter: blur(10px);
+        transform: translateY(-200px) scale(0);
+        opacity: 0.2;
+    }
+    to {
+        filter: blur(0);
+        transform: translateY(0) scale(1); /* translateY, not X */
+        opacity: 1;
+    }
+}
+
+
+section#skill {
+    margin-top: 200px;
 }
